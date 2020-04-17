@@ -1,0 +1,17 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env DEBUG=raft node ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "argh": "^1.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}
